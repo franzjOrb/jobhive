@@ -9,9 +9,9 @@ Route::get('/', function () {
 })->name('home');
 
 // About Us
-Route::get('/about', function () {
-    return view('about');
-})->name('about');
+Route::get('/aboutUs', function () {
+    return view('aboutUs');
+})->name('aboutUs');
 
 // Auth Routes
 Route::middleware('guest')->group(function () {
